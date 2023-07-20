@@ -1,0 +1,68 @@
+#popupform{
+    position: fixed;
+    right: 0;
+    bottom:0;
+    z-index: 10;
+    overflow:hidden;
+
+    
+
+
+
+    .popupbutton{
+        margin: 20px;
+        position: relative;
+        right:0;
+        top:0;
+    
+    
+        &.hide{
+            display: none;
+
+        }
+    
+        
+    
+    }
+
+    .h{
+        font-size: 16px;
+        color: black;
+    }
+    
+
+    .auth-container{
+        width:150px;
+        margin:20px;
+        position:relative;
+        background: #fff;
+        padding: 10px;
+        border-radius: 4px;
+
+        #clientmail{
+            margin-bottom: 10px;
+            padding:4px;
+            font-size:15px;
+        }
+        #clienttime{
+            margin-bottom: 10px;
+            padding:4px;
+            font-size:15px;
+        }
+        #clientdate{
+            margin-bottom: 10px;
+            padding:4px;
+            font-size:15px;
+        }
+        #clienttopic{
+            margin-bottom: 10px;
+            padding:4px;
+            font-size:15px;
+        }
+    }
+
+}
+#adminform{
+    color:black;
+}
+

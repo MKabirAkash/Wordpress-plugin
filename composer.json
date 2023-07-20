@@ -1,0 +1,19 @@
+{
+    "name": "dpe/akashbooking",
+    "description": "yes",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Mkabirakash",
+            "email": "mkabir151234@bscse.uiu.ac.bd"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Config\\" : "./config"
+        }
+    }
+}
